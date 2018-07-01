@@ -101,6 +101,11 @@
     list-style: none;
 }
 
+.hs-form .hs-error-msgs.inputs-list > li {
+    padding: 0;
+    width: 100%;
+}
+
 /* Placeholder Text (styles the placeholder attribute text) */
 ::-webkit-input-placeholder { /* Webkit Browsers */}
 :-moz-placeholder { /* Firefox 18- */}
