@@ -16,6 +16,13 @@
     font-weight: bold;
 }
 
+.hs-form legend {
+    color: #a1a1a1;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .hs-form .hs-form-field > label {}
 
 /* Inputs (selectors for all inputs)  */
