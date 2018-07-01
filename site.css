@@ -77,7 +77,10 @@
 }
 
 /* Multi-line inputs (selectors to target multi-line fields */
-.hs-form textarea {}
+.hs-form textarea {
+    height: auto;
+}
+
 .hs-form textarea:focus {}
 
 /* Dropdowns (selectors for dropdowns) */
