@@ -74,7 +74,10 @@
 .hs-form textarea:focus {}
 
 /* Dropdowns (selectors for dropdowns) */
-.hs-form select {}
+.hs-form select {
+    background-image: linear-gradient(white 0, #f3f3f3 100%);
+}
+
 .hs-form select:focus {}
 
 /* Multi-select (selectors for multi-select fields) */
