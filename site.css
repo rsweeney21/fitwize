@@ -30,7 +30,20 @@
 .hs-form input[type="color"],
 .hs-form input[type="file"],
 .hs-form textarea,
-.hs-form select {}
+.hs-form select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+}
 
 /* Inputs in focus (selectors for all inputs when clicked)  */
 .hs-form input[type="text"]:focus,
@@ -49,7 +62,10 @@
 .hs-form input[type="color"]:focus,
 .hs-form input[type="file"]:focus,
 .hs-form textarea:focus,
-.hs-form select:focus {}
+.hs-form select:focus {
+    border-color: #3898EC;
+    outline: 0;
+}
 
 /* Multi-line inputs (selectors to target multi-line fields */
 .hs-form textarea {}
