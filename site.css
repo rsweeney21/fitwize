@@ -125,10 +125,11 @@
 }
 
 /* Placeholder Text (styles the placeholder attribute text) */
-::-webkit-input-placeholder { /* Webkit Browsers */}
-:-moz-placeholder { /* Firefox 18- */}
-::-moz-placeholder { /* Firefox 19+ */}
-:-ms-input-placeholder { /* IE10 */}
+::placeholder { color: #a1a1a1;}
+::-webkit-input-placeholder { color: #a1a1a1;}
+:-moz-placeholder { color: #a1a1a1;}
+::-moz-placeholder { color: #a1a1a1;}
+:-ms-input-placeholder { color: #a1a1a1;}
 
 /* Multi Column Form (selectors for fieldsets and field wrappers) 
    ========================================================================== */
@@ -147,12 +148,27 @@
 
 body .hs-button.primary,
 body input[type="submit"],
-body input[type="button"] {}
+body input[type="button"] {
+    border-radius: 4px;
+    background-color: #ec4847;
+    display: inline-block;
+    padding: 9px 15px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 body .hs-button.primary:hover,
 body input[type="submit"]:hover,
-body input[type="button"]:hover {}
+body input[type="button"]:hover {
+    background-color: #df3a39;
+}
 
 body .hs-button.primary:focus,
 body input[type="submit"]:focus,
-body input[type="button"]:focus {}
+body input[type="button"]:focus {
+    border-color: #3898EC;
+    outline: 0;
+}
