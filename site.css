@@ -9,8 +9,11 @@
 
 /* Labels (selects field labels and error messages) */
 .hs-form label {
-    color: green;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
+
 .hs-form .hs-form-field > label {}
 
 /* Inputs (selectors for all inputs)  */
@@ -35,14 +38,13 @@
     width: 100%;
     height: 38px;
     padding: 8px 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
     vertical-align: middle;
     background-color: #ffffff;
     border: 1px solid #cccccc;
-}
 }
 
 /* Inputs in focus (selectors for all inputs when clicked)  */
