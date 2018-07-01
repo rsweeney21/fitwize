@@ -97,7 +97,7 @@
     font-weight: normal;
 }
 
-.hs-form .hs-error-msgs .inputs-list {
+.hs-form .hs-error-msgs.inputs-list {
     list-style: none;
 }
 
