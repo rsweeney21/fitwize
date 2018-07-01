@@ -85,9 +85,9 @@
 .hs-form input[type="checkbox"] {}
 
 /* Required (selectors for fields, when they do not pass validation) */
-.hs-form input:invalid, 
-.hs-form textarea:invalid, 
-.hs-form select:invalid {
+.hs-form input.error, 
+.hs-form textarea.error, 
+.hs-form select.error {
     border-color: #c87872;
 }
 
