@@ -42,7 +42,6 @@
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    vertical-align: middle;
     background-color: #ffffff;
     border: 1px solid #cccccc;
 }
@@ -94,7 +93,13 @@
 .hs-form select:focus:required:invalid:focus {}
 
 /* Error message (selector for validation messages) */
-.hs-form .hs-error-msgs label{}
+.hs-form .hs-error-msgs label {
+    font-weight: normal;
+}
+
+.input-list {
+    list-style: none;
+}
 
 /* Placeholder Text (styles the placeholder attribute text) */
 ::-webkit-input-placeholder { /* Webkit Browsers */}
