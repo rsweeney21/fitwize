@@ -44,7 +44,7 @@
 .hs-form textarea,
 .hs-form select {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 38px;
     padding: 8px 12px;
     font-size: 14px;
